@@ -21,7 +21,8 @@ There are a number of limitations of this link format:
 ## Proposal
 
 1. To not have or allow any whitespace within the links
-2. To use our forthcoming Bible Codes for Bible IDs -- owners of Bible versions can submit their codes via Issues
+2. To use our [Bible Codes](https://github.com/Freely-Given-org/BibleCodes) for Bible IDs -- owners of Bible versions can submit their codes via Issues
 3. To use our [Bible Books Codes](https://github.com/Freely-Given-org/BibleBooksCodes) which all start with letters and so can also be used as variable names in most computer languages
 4. To try to make use of punctuation unambiguous, e.g., if if a period separates Bible Code from Book Code like "RSV52.MAT" to not also use period in another part of the link.
 5. To propose an HTML compatible form for use on websites -- currently every man and his dog uses different links, e.g id="C4V5" or "004-005", etc.
+6. More to come...
