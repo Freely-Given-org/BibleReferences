@@ -18,13 +18,18 @@ There are a number of limitations of this link format:
 6. There's no obligation of the owner of the standard to heed to any non-Paratext requests -- in fact they will almost certainly be summarily rejected if they required any work to be done by the Paratext team
 7. This format doesn't work in HTML as the colon can have different meanings there
 
-## Proposal
+## Aims
 
 1. To not have or allow any whitespace within the links
-2. To only use characters which are safe in a URL so including – _ . , + ! * ' $ ( ) and excluding ? & / | \ " % ~ # [ ] { } < > ^
-3. To only use characters which are common on computer keyboards, so excluding $ (locale specific) and Unicode characters like en-dash and other non-ASCII special characters
-4. To use our [Bible Codes](https://github.com/Freely-Given-org/BibleCodes) for Bible IDs -- owners of Bible versions can submit their codes via Issues
-5. To use our [Bible Books Codes](https://github.com/Freely-Given-org/BibleBooksCodes) which all start with letters and so can also be used as variable names in most computer languages
-6. To try to make use of punctuation unambiguous, e.g., if if a period separates Bible Code from Book Code like "RSV52.MAT" to not also use period in another part of the link.
-7. To propose an HTML compatible form for use on websites -- currently every man and his dog uses different links, e.g id="C4V5" or "004-005", etc.
-8. More to come...
+2. To have links that are relatively human-readable, i.e., not complete computer gobbledygook
+3. To only use characters which are safe in a URL so including - _ . , + ! * ' $ ( ) and excluding ? & / | \ " % ~ # [ ] { } < > ^
+4. To only use characters which are common on computer keyboards, so excluding $ (locale specific) and Unicode characters like en-dash and other non-ASCII special characters
+5. To use our [Bible Codes](https://github.com/Freely-Given-org/BibleCodes) for Bible IDs -- owners of Bible versions can submit their codes via Issues
+6. To use our [Bible Books Codes](https://github.com/Freely-Given-org/BibleBooksCodes) which all start with letters and so can also be used as variable names in most computer languages
+7. To try as much as possible to make use of punctuation unambiguous or single-use, e.g., if if a period separates Bible Code from Book Code like "RSV52.MAT" to not also use period in another part of the link in order to make unspecified link components more obvious
+8. To allow specification of non-versified text, e.g., introductions, section headings, footnotes, etc.
+9. To allow specifications of ranges (like MAT_6:3-4) and lists (like MAT_6:3,5,11-12,16)
+10. To allow specification of part of a component like a verse, e.g., words, letters, and commonly-used roughly-specified parts like "second-half"
+11. To propose an HTML compatible form for use on websites -- currently every man and his dog uses different links, e.g id="C4V5" or "004-005", etc.
+
+## More to come...
