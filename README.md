@@ -24,7 +24,7 @@ There are a number of limitations of this link format:
 2. To have links that are relatively human-readable, i.e., not complete computer gobbledygook -- this also means that index schemes will be 1-based not 0-based
 3. To only use characters which are safe in a URL so including - _ . , + ! ' $ and excluding ? & / | \ " % ~ # @ * [ ] { } < > ^ (and what about : ; = ( ) `) -- note that using parentheses in a URL creates difficulties for markdown links
 4. To only use characters which are common on computer keyboards, so excluding $ (locale specific) and Unicode characters like en-dash and other non-ASCII special characters
-5. To use our [Bible Codes](https://github.com/Freely-Given-org/BibleCodes) for Bible IDs -- owners of Bible versions can submit their codes via Issues
+5. To use our [Bible Version Codes](https://github.com/Freely-Given-org/BibleVersionCodes) for Bible IDs -- owners of Bible versions can submit their codes via Issues
 6. To use our [Bible Books Codes](https://github.com/Freely-Given-org/BibleBooksCodes) which all start with letters and so can also be used as variable names in most computer languages
 7. To try as much as possible to make use of punctuation unambiguous or single-use, e.g., if if a period separates Bible Code from Book Code like "RSV52.MAT" to not also use period in another part of the link in order to make unspecified link components more obvious
 8. To allow specification of non-versified text, e.g., introductions, section headings, footnotes, etc.
